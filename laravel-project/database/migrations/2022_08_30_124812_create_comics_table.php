@@ -18,6 +18,10 @@ class CreateComicsTable extends Migration
             $table->string('title', 50);
             $table->text('description');
             $table->text('thumb');
+            $table->string('price', 10);
+            $table->string('series', 20);
+            $table->string('sale_date', 20);
+            $table->string('type', 20);
             
             $table->timestamps();
         });
