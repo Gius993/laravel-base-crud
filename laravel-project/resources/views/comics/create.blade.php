@@ -27,6 +27,14 @@
 				<label for="title">prezzo</label>
 				<input type="text" id="price" name="price">
 			</div>
+			<div>
+				<label for="title">data</label>
+				<input type="text" id="sale_date" name="sale_date">
+			</div>
+			<div>
+				<label for="title">tipo</label>
+				<input type="text" id="type" name="type">
+			</div>
 			<button>Salva</button>
 		</form>
 	
