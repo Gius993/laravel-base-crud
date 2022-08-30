@@ -8,7 +8,11 @@
 </head>
 <body>
 	<header>
-		header
+		<ul>
+			<li><a href="{{route('home')}}">home</a></li>
+			<li><a href="{{route('comics.index')}}">hero</a></li>
+
+		</ul>
 	</header>
 
 	<main>
