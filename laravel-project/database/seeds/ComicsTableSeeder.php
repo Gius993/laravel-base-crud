@@ -15,7 +15,7 @@ class ComicsTableSeeder extends Seeder
         foreach($comic_array as $comic){
             //nuova istanza
             $new_comic = new Comic();
-            //creo la varie colonne
+            //popolo la varie colonne
             $new_comic->title = $comic['title'];
             $new_comic->description = $comic['description'];
             $new_comic->thumb = $comic['thumb'];
