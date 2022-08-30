@@ -11,6 +11,7 @@
 		<ul>
 			<li><a href="{{route('home')}}">home</a></li>
 			<li><a href="{{route('comics.index')}}">hero</a></li>
+			<li><a href="{{route('comics.create')}}">Crea il tuo eroe</a></li>
 
 		</ul>
 	</header>
