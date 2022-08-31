@@ -1,9 +1,9 @@
 @extends('layouts.app')
 
 @section('main_content')
-	<h1>modifica</h1>
+	<h1>modifica eroe</h1>
 	<form 
-		action="{{route('comics.update ', ['comics' => $comics->id])}}" 
+		action="{{ route('comics.update', $comics->id) }}" 
 		method="post">
 		@csrf
 		@method('PUT')

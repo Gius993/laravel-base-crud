@@ -10,5 +10,6 @@
 		
 		<h3>{{$comic->type}}</h3>
 		<a href="{{route('comics.show', ['comic' => $comic->id])}}">Vedi prodotto</a>
+		<a href="{{route('comics.edit', ['comic' => $comic->id])}}">Modifica eroe</a>
 	@endforeach
 @endsection
